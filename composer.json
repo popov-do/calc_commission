@@ -1,0 +1,22 @@
+{
+  "php": ">=8.0",
+  "require": {
+    "ext-bcmath": "*",
+    "myclabs/deep-copy": "^1.12",
+    "symfony/console": "^7.1.0",
+    "symfony/http-client": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "process-timeout": 1800
+  }
+}
